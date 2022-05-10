@@ -3,8 +3,7 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande',
-    'Lucida Sans', Arial, sans-serif;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans", Arial, sans-serif;
 }
 
 /* Mobile first */
@@ -53,9 +52,30 @@
 }
 
 .output-cointainer #output {
+  align-items: flex-start;
+  display: flex;
+  flex-wrap: wrap;
   width: 80%;
   margin-top: 25px;
   padding: 30px;
   border-radius: 5px;
   background-color: #fff;
+}
+
+.user-card {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-right: 10px;
+  padding: 20px;
+  width: 200px;
+}
+
+.user-avatar {
+  width: 200px;
+}
+
+.user-login {
+  padding-bottom: 10px;
 }

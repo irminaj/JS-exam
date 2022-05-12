@@ -22,7 +22,6 @@ const fetchCar = () => {
 
         const models = document.createElement("h4");
         models.innerText = car.models;
-        models.classList.add("models");
 
         const carCard = document.createElement("div");
         carCard.append(brand, models);
